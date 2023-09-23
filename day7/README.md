@@ -1,1 +1,1 @@
-# Spam Guard
+# Furniture Store
