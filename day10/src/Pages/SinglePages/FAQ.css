@@ -1,0 +1,61 @@
+/* Add this CSS to your stylesheet or in a CSS file */
+
+
+
+
+.FAQ-section h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .FAQ-section p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Apply maximum font size and overflow for the FAQ content */
+  .FAQ-content {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    font-size: 18px; /* Maximum font size */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+  }
+  
+  
+
+
+
+.FAQ-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the FAQ item */
+  .FAQ-item {
+    margin-bottom: 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the question */
+  .FAQ-question {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the answer */
+  .FAQ-answer {
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  /* Style for the active (open) FAQ item */
+  .FAQ-item.active .faq-answer {
+    display: block;
+  }
+  
